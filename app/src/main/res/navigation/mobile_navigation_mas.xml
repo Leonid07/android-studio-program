@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home_mas">
+    <fragment
+        android:id="@+id/nav_home_mas"
+        android:name="com.progect.in_service.ui.MainHome.Home_mas"
+        android:label="@string/menu_home_mas"
+        tools:layout="@layout/fragment_home_mas" />
+
+    <fragment
+        android:id="@+id/nav_gallery_mas"
+        android:name="com.progect.in_service.ui.gallery.GalleryFragment_mas"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery_mas" />
+
+    <fragment
+        android:id="@+id/nav_slideshow_mas"
+        android:name="com.progect.in_service.ui.slideshow.SlideshowFragment_mas"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow_mas" />
+
+    <fragment
+        android:id="@+id/nav_tools_mas"
+        android:name="com.progect.in_service.ui.tools.ToolsFragment_mas"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools_mas" />
+    <fragment
+        android:id="@+id/nav_oplata_mas"
+        android:name="com.progect.in_service.ui.oplata.My_Zakaz_Fragment"
+        android:label="Мои заказы"
+        tools:layout="@layout/fragment_my_zakaz" />
+    <fragment
+        android:id="@+id/nav_1"
+        android:name="com.progect.in_service.zakaz.Zakaz1"
+        android:label="wqewq"
+        tools:layout="@layout/zakaz_1" />
+</navigation>
